@@ -2,16 +2,18 @@
 #include <stdlib.h>
 
 /*
- *main-printing the alphabet to the std output
- *Return: the alphabet in lowercase, no space
+ *main-printing all small alphabets except c and q
+ *Return: using putchar
  */
 
 int main(void)
 {
 	char ch = 'a';
+	
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
+		if (ch == 'c' && ch == 'q')
+		  
 		putchar(ch);
 	}
-	return (0);
-}
+	

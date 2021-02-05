@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /*
- *main-printing the alphabet to the std output
- *Return: the alphabet in lowercase, no space
+ *main-print both the uppercase and the lowercase alphabets
+ *Return: using putchar
  */
 
 int main(void)
@@ -11,6 +11,10 @@ int main(void)
 	char ch = 'a';
 
 	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
 		putchar(ch);
 	}
