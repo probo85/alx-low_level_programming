@@ -2,12 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- *main - random number generator
+/**
+ * main - Entry point
  *
- *Return: whther the random number is positive, negative or zero
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
