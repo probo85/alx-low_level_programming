@@ -2,15 +2,15 @@
 #include "holberton.h"
 
 /**
-*main - entry point to the function that prints "holberton"
-*Return : Always 0 (success)
-*/
-
+ *main - prints "Holberton" without using any std libraries
+ *
+ *Return: Always 0 (success)
+ */
 int main(void)
 {
 	char *str = "Holberton\n";
 
-	while(*str)
+	while (*str)
 		_putchar(*str++);
 
 	return (0);
