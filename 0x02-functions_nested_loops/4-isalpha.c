@@ -3,7 +3,7 @@
 /**
  * _isalpha - checks if an argument is a letter
  *
- * c - parameter of type int
+ * @c: parameter of type int
  *
  * Return: 1 if c is a letter and 0 otherwise.
  */
