@@ -2,7 +2,7 @@
 
 /**
  * _abs - compute the absolute value of an integer
- * i - integer type
+ * @i : integer type
  * Return: positive integer or 0
  */
 int _abs(int i)
